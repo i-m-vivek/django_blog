@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<h1>{{ user.username }}</h1>
+{% endblock content %}
+
+
+<!-- user is the thing that is created by django for us so as to represent the current user. 
+WE DONT NEED TO PASS THE USER AS A CONTEXT TO THE HTML PAGE-->
